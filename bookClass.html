@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="booklass.css">
+    <title>Gym Class Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gym Class Booking</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="class">Select Class:</label>
+            <select id="class" name="class" required>
+                <option value="yoga">Yoga</option>
+                <option value="cardio">Cardio</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Book Class</button>
+        </form>
+    </div>
+</body>
+</html>
